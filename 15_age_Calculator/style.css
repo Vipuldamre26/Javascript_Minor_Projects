@@ -76,13 +76,13 @@ section {
     cursor: pointer;
 }
 
-/* .item .cal button:hover {
+.item .cal button:hover {
     transition: 800ms;
     padding: 1.8vmin 1vmin;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     cursor: pointer;
-} */
+}
 
 .item .cal p {
     font-size: 1.6rem;
