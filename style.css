@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(164, 255, 255);
+}
+
+.btn{
+    margin: auto;
+    padding: 30px;
+}
+
+button{
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: dimgray;
+    color: aliceblue;
+}
+
+.link{
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+}
+
+.heading{
+    align-items: center;
+    width: 12rem;
+    margin: 20px auto;
+    padding-top: 30px;
+    font-size: 40px;
+    color: rgb(133, 126, 126);
+}
