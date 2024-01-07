@@ -1,0 +1,48 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: 140px 40px;
+}
+
+.page h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    animation: changecolor 6s infinite alternate;
+}
+
+.bottom{
+    margin: 90px 0px;
+    font-size: 20px;
+}
+
+button{
+    height: 40px;
+    width: 140px;
+    margin: 30px 0px;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(151, 225, 255);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+@keyframes changecolor{
+    0%{
+        color: indigo;
+    }
+    20%{
+        color: rgb(80, 217, 255);
+    }
+    40%{
+        color: rgb(100, 244, 122);
+    }
+    60%{
+        color: rgb(255, 255, 35);
+    }
+    80%{
+        color: rgb(255, 174, 45);
+    }
+    100%{
+        color: rgb(255, 2, 2);
+    }
+}

@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(38, 173, 197);
+    text-align: center;
+}
+
+.container{
+    background-color: rgb(252, 244, 234);
+    height: 500px;
+    width: 70%;
+    margin: 60px auto;
+    border: 7px solid rgb(254, 208, 155);
+    box-shadow: 5px black;
+}
+
+.btn{
+    height: 45px;
+    width: 180px;
+    background-color:salmon ;
+    border-radius: 5px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.quotes{
+    height: 450px;
+    width: 68%;
+    margin: auto;
+    /* border: 2px solid black; */
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quotes p, .quotes h3{
+    font-size: 1.5rem;
+}

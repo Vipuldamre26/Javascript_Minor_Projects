@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+section {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item {
+    width: 80vmin;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 6px;
+    -webkit-box-shadow: 6px 9px 9px -1px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 6px 9px 9px -1px rgba(0, 0, 0, 0.32);
+    box-shadow: 6px 9px 9px -1px rgba(0, 0, 0, 0.32);
+
+}
+
+.item h1 {
+    width: 90%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    font-size: 2.2rem;
+}
+
+.item .cal {
+    width: 90%;
+    height: 70%;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item .cal h4 {
+    font-size: 1.4rem;
+    margin: 1rem 0;
+}
+
+.item .cal input {
+    width: 40vmin;
+    padding: 1.6vmin 3vmin;
+    border-radius: 5px;
+    border: 0.2px solid rgb(189, 189, 189);
+    margin-bottom: 1.2rem;
+}
+
+.item .cal button {
+    width: 9rem;
+    padding: 1.8vmin 1vmin;
+    border-radius: 5rem;
+    border: 1px solid rgb(185, 185, 185);
+    font-size: 2.1vmin;
+    background-color: rgb(75, 67, 67);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+/* .item .cal button:hover {
+    transition: 800ms;
+    padding: 1.8vmin 1vmin;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+} */
+
+.item .cal p {
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 1vmin;
+    margin: 3vmin 0;
+    border-radius: 5px;
+}

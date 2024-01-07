@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(202, 249, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border: 1px solid lightgray;
+    width: 35%;
+    background-color: rgb(255, 255, 247);
+    padding: 10px 20px;
+}
+
+.card input{
+    width: 90%;
+}
+
+.btn {
+    width: 80px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+.btn:hover {
+    background-color: rgb(135, 134, 134);
+    color: white;
+}
