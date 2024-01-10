@@ -1,0 +1,32 @@
+h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.gridd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
